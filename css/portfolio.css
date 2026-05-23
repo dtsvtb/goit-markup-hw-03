@@ -1,3 +1,6 @@
+.portfolio {
+  padding: 120px 0;
+}
 .portfolio .title {
   color: #2e2f42;
   font-size: 36px;
@@ -5,6 +8,7 @@
   font-weight: 700;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;
 }
 .portfolio .list {
   list-style: none;
@@ -22,4 +26,13 @@
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
+}
+.portfolio .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.list li {
+  width: calc((100% - 48px) / 3);
 }

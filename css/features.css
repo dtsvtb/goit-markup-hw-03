@@ -7,6 +7,11 @@
 }
 .features .list {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 120px 0;
 }
 .features .text {
   color: #434455;
@@ -14,4 +19,7 @@
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
+}
+.features li {
+  max-width: 264px;
 }
