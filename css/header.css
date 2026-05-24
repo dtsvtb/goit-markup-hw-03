@@ -1,5 +1,6 @@
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 .header .logo-header {
   color: #2e2f42;
@@ -52,10 +53,6 @@
 .header .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-.left-side {
-  display: flex;
   align-items: center;
 }
 .header .list {
